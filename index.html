@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with JS</title>
+    <link rel="stylesheet" href="bootstrap-5.2.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="row text-center">
+        <h1>Dashboard with JS</h1>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+            <div class="card">
+                <canvas id="g1" class="card-img-top"></canvas>
+                <div class="card-body">
+                <h5 class="card-title text-center">General Production</h5>
+                <p class="card-text">Variation in the company's production regarding the different orders generated for customers.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <canvas id="g2" class="card-img-top"></canvas>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Manufacturing by Product Type</h5>
+                    <p class="card-text">Behavior in the output of products manufactured by type in different weeks</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <canvas id="g3" class="card-img-top"></canvas>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Distribution of merchandise</h5>
+                    <p class="card-text">"Distribution of production by supply chain and location (local, regional, national, or international)</p>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                <canvas id="g4" class="card-img-top"></canvas>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Raw Material</h5>
+                    <p class="card-text">Income and consumption of raw materials by type assigned to the specific production of different products by the Company.</p>
+                </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <script src="bootstrap-5.2.1/js/bootstrap.min.js"></script>
+    <script src="Chart.js_4.3.0_chart.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
